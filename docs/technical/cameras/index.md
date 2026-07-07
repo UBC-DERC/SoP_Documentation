@@ -66,6 +66,7 @@ Each Dream Machine's Protect console is treated as an independent API endpoint. 
 - **[TBD]** — marks a placeholder pending further work
 - Code blocks show real, tested commands/API calls where possible;  untested or planned commands are marked `# planned, untested`
 - Network diagrams will be added as SVG/PNG assets under  `docs/assets/diagrams/` as they're finalized
+- [Redacted and Sensitive Information](security_policy.md)
 
 ---
 
