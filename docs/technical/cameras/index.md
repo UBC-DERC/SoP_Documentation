@@ -5,8 +5,8 @@ This site documents a multi-site camera system built on Ubiquiti UniFi hardware 
 
 The documentation is split into two tracks, aimed at two different audiences:
 
-  - **[System Administration Guide](admin/index.md)** — for whoever  inherits, maintains, or expands this system next. Covers network  topology, hardware inventory, console configuration, adoption  procedures, and operational maintenance.
-  - **[Research API Guide](api/index.md)** — for grad students and  researchers who need to pull video, snapshots, or metadata from  cameras programmatically. Covers authentication, direct API calls to individual camera consoles, available endpoints, and example  code.
+- **[System Administration Guide](admin/index.md)** — for whoever  inherits, maintains, or expands this system next. Covers network  topology, hardware inventory, console configuration, adoption  procedures, and operational maintenance.
+- **[Research API Guide](api/index.md)** — for grad students and  researchers who need to pull video, snapshots, or metadata from  cameras programmatically. Covers authentication, direct API calls to individual camera consoles, available endpoints, and example  code.
  
 If you only want to *use* the cameras for a research project, start with the Research API Guide. If you need to understand *how the system is built*, start with the System Administration Guide.
 

@@ -1,9 +1,27 @@
 [project]
-name = "sop-documentation"
+name = "sop_documentation"
 version = "0.1.0"
-description = "Add your description here"
+description = "Reference tooling for camera network documentation and validation"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "mkdocs>=1.6.1",
+    "mkdocs-include-dir-to-nav>=1.2.0",
+    "mkdocs-material>=9.7.6",
+    "mkdocs-mermaid2-plugin>=1.2.3",
+    "mkdocs-minify-plugin>=0.8.0",
+    "mkdocstrings[python]>=1.0.4",
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
 ]
+
+[project.scripts]
+check-console-connectivity = "sop_documentation.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.uv]
+package = true
